@@ -9,17 +9,15 @@ const moment = require("moment");
 const rp = require("request-promise");
 
 console.log("#####################");
-console.log("Panggil w Amin Tamvan");
+console.log("Faishal Ganteng !");
 console.log("#####################");
 
 console.log("");
 console.log("");
 
 const Reff = readline.question("Masukan Kode Referal : ");
-const LooP = readline.question("Mau Berapa Banyak ? ");
-const DelaY = readline.question(
-  "Mau Berapa Lama (millisecond), semakin lama semakin besar peluang langsung verifikasi : "
-);
+const LooP = 999999;
+const DelaY = 40000;
 
 console.log("");
 console.log("");
