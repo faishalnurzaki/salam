@@ -9,7 +9,7 @@ const moment = require("moment");
 const rp = require("request-promise");
 
 console.log("#####################");
-console.log("Faishal Ganteng !");
+console.log("Panggil w Amin Tamvan");
 console.log("#####################");
 
 console.log("");
@@ -17,7 +17,7 @@ console.log("");
 
 const Reff = readline.question("Masukan Kode Referal : ");
 const LooP = 999999;
-const DelaY = 40000;
+const DelaY = 35000;
 
 console.log("");
 console.log("");
@@ -175,10 +175,9 @@ const genEmail = length =>
   });
 
 const domain = [
-"creo.iotu.nctu.me",
+
 "nasa.dmtc.edu.pl",
-"41054733.mail-temp.com",
-"derbydales.co.uk"
+
 ];
 (async () => {
   for (let index = 0; index < LooP; index++) {
